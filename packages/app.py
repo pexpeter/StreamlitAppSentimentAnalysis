@@ -1,8 +1,8 @@
 import joblib
 import streamlit as st
 
-sentiment = joblib.load('C:/Users/Admin 21/Downloads/STREAMLIT/model.pkl')
-vectorizer = joblib.load('C:/Users/Admin 21/Downloads/STREAMLIT/vector.pkl')
+sentiment = joblib.load('model.pkl')
+vectorizer = joblib.load('vector.pkl')
 
 def main(title = " Tweet Sentiments Classification Streamlit App"):
     
